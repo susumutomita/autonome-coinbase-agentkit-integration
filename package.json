@@ -1,0 +1,24 @@
+{
+  "name": "autonome-coinbase-agentkit-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node build/index.js",
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Susumu Tomita <your.email@example.com> (http://yourwebsite.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^15.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  }
+}

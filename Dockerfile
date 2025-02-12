@@ -5,7 +5,8 @@ WORKDIR /app
 RUN npm install -g pnpm
 
 # Copy package files (if needed for runtime scripts)
-COPY package*.json ./
+COPY package.json ./
+COPY pnpm-lock.yaml ./
 
 # Install production dependencies only
 RUN pnpm install

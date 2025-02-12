@@ -1,8 +1,7 @@
 services:
   autonome-coinbase-agentkit-integration:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ${DOCKER_USERNAME}/autonome-coinbase-agentkit-integration:latest
+    platform: linux/amd64
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       CDP_API_KEY_NAME: ${CDP_API_KEY_NAME}

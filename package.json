@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "start": "node --env-file .env build/index.js",
-    "build": "tsc -p .",
+    "build": "tsc",
     "format": "prettier --write '**/**/*.{js,ts,tsx,css}'",
     "format:check": "prettier --check '**/**/*.{ts,tsx,js,jsx,css}'"
   },

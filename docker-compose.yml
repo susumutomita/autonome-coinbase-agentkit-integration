@@ -1,0 +1,14 @@
+services:
+  autonome-coinbase-agentkit-integration:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      CDP_API_KEY_NAME: ${CDP_API_KEY_NAME}
+      CDP_API_KEY_PRIVATE_KEY: ${CDP_API_KEY_PRIVATE_KEY}
+      NETWORK_ID: ${NETWORK_ID:-base-sepolia}
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true

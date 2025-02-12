@@ -13,6 +13,9 @@
   "author": "Susumu Tomita",
   "license": "MIT",
   "devDependencies": {
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7",
+    "express": "^4.21.2",
     "prettier": "^3.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
@@ -23,7 +26,11 @@
     "@langchain/core": "^0.3.39",
     "@langchain/langgraph": "^0.2.45",
     "@langchain/openai": "^0.4.3",
+    "@types/express": "^4.17.13",
+    "@types/node": "^20.12.11",
     "express": "^4.21.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
     "viem": "^2.23.0"
   }
 }

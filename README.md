@@ -1,5 +1,8 @@
 ## Overview
 
+![Project Logo](https://github.com/user-attachments/assets/5989bd31-f0b7-4bf6-800d-5fafaf3cc829)
+
+
 This repository provides an integration of **Coinbase Developer Platform (CDP) AgentKit** with **Autonome** (AltLayer’s autonomous agent platform). It allows you to deploy an AI agent that can autonomously interact with the blockchain (manage wallets, perform on-chain transactions, etc.) on the Autonome platform. The integration uses Coinbase’s AgentKit framework (Node.js) to enable on-chain actions for the agent, and is customized to include additional capabilities such as support for DeFi protocols (e.g. an AAVE integration) beyond the standard AgentKit features ([GitHub - mashharuki/AgenticEthereum2025: This repo for AgenticEthereum2025 (https://ethglobal.com/events/agents)](https://github.com/mashharuki/AgenticEthereum2025#:~:text=This%20server%20is%20hosted%20on,for%20the%20CDP%20Agent%20Kit)).
 
 Key features:
